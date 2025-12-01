@@ -1,1 +1,18 @@
-body {background-color: blue;}
+.logo {
+    text-align: left;
+}
+
+nav {
+    text-align: right;
+    margin: 0 15px ;
+}
+
+header {
+    background-color: #d4af37;
+    border: solid 2px black;
+    max-height: 70px;
+    margin: 15px 15px;
+}
+body {
+    border: solid 2px black;
+}
