@@ -1,17 +1,28 @@
 .logo {
+    margin-left: 10px;
     text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 nav {
     text-align: right;
     margin: 0 15px ;
+
+    display: flex;
+    gap: 10px;
 }
 
 header {
     background-color: #d4af37;
     border: solid 2px black;
-    max-height: 70px;
+    height: 75px;
     margin: 15px 15px;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
 body {
     border: solid 2px black;
