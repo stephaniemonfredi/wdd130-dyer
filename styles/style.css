@@ -6,6 +6,11 @@
     gap: 10px;
 }
 
+.logo img {
+    height: 50px;
+    width: 50px;
+}
+
 nav {
     text-align: right;
     margin: 0 15px ;
