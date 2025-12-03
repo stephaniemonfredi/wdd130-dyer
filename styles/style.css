@@ -32,3 +32,29 @@ header {
 body {
     border: solid 2px black;
 }
+
+main {
+    margin: 15px 15px;
+}
+
+.hero {
+    border: solid 2px black;
+    padding: 25px;
+}
+
+.hero img {
+    height: 200px;
+    width: 100%;
+}
+
+.hero h1{
+    text-align: center;
+}
+
+.hero p {
+    text-align: center;
+}
+
+.skills {
+    
+}
