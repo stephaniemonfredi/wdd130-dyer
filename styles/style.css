@@ -116,6 +116,10 @@ h1, h3 {
     font-family: "Anton", sans-serif;
 }
 
+h3 {
+    color: #d4af37;
+}
+
 main {
     font-family: "Inter", sans-serif;
 }
