@@ -32,7 +32,8 @@ header {
     align-items: center;
 }
 body {
-    border: solid 2px black;
+    color: #0A0A0A ;
+    
 }
 
 main {
@@ -42,6 +43,7 @@ main {
 .hero {
     border: solid 2px black;
     padding: 25px;
+    box-shadow: 0 4px 8px #0A0A0A ;
 }
 
 .hero img {
@@ -69,12 +71,16 @@ main {
     padding: 15px;
     max-width: 50%;
     height: 360px;
+    box-shadow: 0 4px 8px #0A0A0A ;
+    
+    
 }
 
 .skills {
     height:120px;
     display: block;
     margin: 0 auto;
+;
     
 }
 
@@ -93,6 +99,7 @@ footer {
     margin: 15px;
     text-align: center;
     background-color: #d4af37;
+    
 }
 
 h1, h3 {
