@@ -6,6 +6,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    color: #d4af37;
 }
 
 .logo img {
@@ -16,13 +17,21 @@
 nav {
     text-align: right;
     margin: 0 15px ;
-
     display: flex;
     gap: 10px;
 }
+nav a {
+    color: #d4af37;
+    text-decoration: none;
+}
+ 
+a:hover {
+    color:#C97C2F ;
+    text-decoration: underline;
+}
 
 header {
-    background-color: #d4af37;
+    background-color: #0A0A0A;
     border: solid 2px black;
     height: 75px;
     margin: 15px 15px;
@@ -98,7 +107,8 @@ footer {
     border: solid 2px black;
     margin: 15px;
     text-align: center;
-    background-color: #d4af37;
+    background-color: #0A0A0A;
+    color: #d4af37;
     
 }
 
