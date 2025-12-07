@@ -42,7 +42,7 @@ header {
 }
 body {
     color: #0A0A0A ;
-    background-color: #e6e6e6;
+    background-color: white;
     
 }
 
@@ -125,12 +125,19 @@ main {
     font-family: "Inter", sans-serif;
 }
 
+/* This is the main box that encapsulates the about and get in touch boxxes */
+
+.aboutmain {
+    border: solid 3px;
+    align-items: center;
+    padding: 0px 25px 25px 25px;
+}
+
+/* First box within main */
+
 .aboutjack {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    border: solid 3px black;
-    align-items: center;
-    margin-top: 20px;
     column-gap: 30px;
 }
 
@@ -146,7 +153,6 @@ main {
     border: solid 3px black;
     grid-column: 1 / 4;
     margin-top: -5px;
-    margin-left: 25px;
     margin-bottom: 50px;
 }
 
@@ -157,7 +163,50 @@ main {
     padding-bottom: 220px;
     margin-left: 20px;
     margin-top: -5px;
-    margin-right: 25px;
     margin-bottom: 50px;
 }
 
+/* Second box within main */
+
+.getintouch {
+    display: grid;
+    grid-template-rows: auto;
+    border: solid 3px black;
+    padding: 0px 20px 0px 20px;
+}
+
+.getintouch h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getintouch p {
+    margin: 18px 0px 18px;
+}
+
+.getintouch label, .getintouch input {
+    border: solid 3px black;
+    padding-left: 10px;
+}
+.getintouch input {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    padding-block: 12px;
+    background-color: #e6e6e6;
+}
+
+.getintouch #message {
+    padding-bottom: 200px;
+}
+
+.getintouch #submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
